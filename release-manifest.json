@@ -1,0 +1,43 @@
+{
+  "release": "v0.1.0",
+  "channel": "experimental",
+  "packaged_on": "2026-10-27",
+  "exact_tested_profile": "A5G_BY_G23_M05_ST_007_20260122_L",
+  "artifacts": [
+    {
+      "file": "apk/HRplus-iOS27-English.apk",
+      "bytes": 14710578,
+      "sha256": "d7d00da97aa09e61bea2d7402f1fd5b5e159fb7f24573d1a807f6803a7cdb49f"
+    },
+    {
+      "file": "firmware/HRplus-V007-iOS27-firmware-v1.zip",
+      "bytes": 2107624,
+      "sha256": "37c95eb1d05e85404eac45d41c4ca1a2b66e0988c083e1a4b0962b73de79a138"
+    },
+    {
+      "file": "firmware/HRplus_V007_iOS27_candidate_v1_left.bin",
+      "bytes": 1054473,
+      "sha256": "e33a563c45a5a7bad6b4d957c8db68ab209e1711ddabbb12943b93132da1a5a2"
+    },
+    {
+      "file": "firmware/HRplus_V007_iOS27_candidate_v1_right.bin",
+      "bytes": 1054473,
+      "sha256": "e33a563c45a5a7bad6b4d957c8db68ab209e1711ddabbb12943b93132da1a5a2"
+    }
+  ],
+  "apk_embedded_firmware_matches_standalone_files": true,
+  "firmware_changed_bytes": 18,
+  "outside_patch_unchanged": true,
+  "firmware_container_and_sections_verified": true,
+  "validation_block_cases_passed": 199680,
+  "hardware_validation": {
+    "pairs": 1,
+    "date": "2026-10-25",
+    "phone": "iPhone 17",
+    "os": "iOS 27.0",
+    "sdk_update_restart_success": true,
+    "initial_music_both_ears_reported": true,
+    "final_english_apk_additional_flash_performed": false
+  },
+  "scope": "Initial pairing/music only; not a full feature, security or reliability validation."
+}

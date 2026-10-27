@@ -1,0 +1,7 @@
+*.keystore
+*.jks
+*.p12
+*.pklg
+*.log
+__pycache__/
+.DS_Store
